@@ -25,7 +25,8 @@ int compare(string m, string n, int j,int k)
 		
 		for (loopcounter = 0; counter2 <= k && buffcounter <=k; buffcounter++)
 		{
-		    
+			while(1)
+			{}
 
 			buff1[buffcounter] = m[counter1];
 			buff2[buffcounter] = n[counter2];
