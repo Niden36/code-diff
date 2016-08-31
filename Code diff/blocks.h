@@ -8,8 +8,8 @@ class Blocks
 {
 	int start;
 	int end;
-	string str[100];
-	int diff = end - start;
+	string str;
+	int diff;
 public:
 	Blocks();
 	Blocks(int i, int j);

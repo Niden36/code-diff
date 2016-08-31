@@ -21,3 +21,7 @@ void stringsenlarge(string &j, string &k)
 	m++;
 	k.resize(m,' ');
 }
+void stringenlarge(string &j,int d)
+{
+	j.resize(d, ' ');
+}

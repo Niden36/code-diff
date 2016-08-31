@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include "blocks.h"
+#include "stringenlarge.h"
 using namespace std;
 
 
@@ -24,6 +25,7 @@ void Blocks::createblock(string n)
 	int j = this->start;
 	int k = this->end;
 	diff   =   end-start;
+	stringenlarge(str, diff+1);
 	for (int c=0; j <= k; j++,c++)
 	{
 		str[c] = n[j];

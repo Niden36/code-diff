@@ -56,14 +56,14 @@ int main()
 	c = 89; // <<<<
 	if (c == 89 || c == 121)
 	{
-		blockselection = 1;
+		blockselection = 1; //<<<<<<<<<
 		cout << "which block would you like to add" << endl;;
 		//cin >> blockselection;
 		cout << "write the word after which you would like to place it" << endl;;
 		//cin >> word;
 		cout << "if the word appears in the file once type in '1' if it appears several times then type in after which reappearance of the word you would like to put your block in" << endl;
 		//cin >> wordcounter;
-		//stringtoinsert = X[blockselection - 1].str;
+		stringtoinsert = X[blockselection - 1].str;
 
 	}
 	cout << str1;
