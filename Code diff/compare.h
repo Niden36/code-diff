@@ -3,4 +3,4 @@
 #include <cstring>
 using namespace std;
 
-int compare(string m, string n, int j,int k);
+int compare(string m, string n, int j,int k,Blocks a[]);

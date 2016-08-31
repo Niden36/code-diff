@@ -24,12 +24,30 @@
     <ClCompile Include="compare.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="clearbuffs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clearscrn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stringenlarge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="blocks.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="compare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clearbuffs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clearscrn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stringenlarge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

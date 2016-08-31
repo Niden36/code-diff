@@ -147,12 +147,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="blocks.cpp" />
+    <ClCompile Include="clearbuffs.cpp" />
+    <ClCompile Include="clearscrn.cpp" />
     <ClCompile Include="compare.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="stringenlarge.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="blocks.h" />
+    <ClInclude Include="clearbuffs.h" />
+    <ClInclude Include="clearscrn.h" />
     <ClInclude Include="compare.h" />
+    <ClInclude Include="stringenlarge.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
